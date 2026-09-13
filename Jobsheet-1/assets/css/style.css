@@ -134,3 +134,57 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+/* ===== Menambahkan menu untuk hamburger */
+/* Pertama, checkbox disembunyikan: */
+.nav-toggle {
+    display: none;
+}
+/* Kemudian ikon hamburger juga secara default disembunyikan: */
+.nav-toggle-label {
+    display: none;
+}
+
+/* ===== Tabel Responsif overflow-x: auto membuat scrollbar horizontal muncul jika tabel lebih lebar daripada area yang tersedia.===== */
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    main section:nth-of-type(2) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        position: relative;
+    }
+
+    .nav-toggle-label {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+        width: 100%;
+        order: 3;
+    }
+
+    .nav-toggle:checked ~ nav {
+        display: block;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    main section:nth-of-type(2) {
+        grid-template-columns: 1fr;
+    }
+
+    form input,
+    form select {
+        max-width: 100%;
+    }
+}
