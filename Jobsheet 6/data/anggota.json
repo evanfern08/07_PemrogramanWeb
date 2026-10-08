@@ -1,0 +1,8 @@
+{
+  "anggota": [
+    { "no_anggota": "A001", "nama": "Ahmad Dahlan", "email": "ahmad@mail.com", "status": "Aktif" },
+    { "no_anggota": "A002", "nama": "Siti Walidah", "email": "siti@mail.com", "status": "Aktif" },
+    { "no_anggota": "A003", "nama": "Budi Santoso", "email": "budi@mail.com", "status": "Non-Aktif" },
+    { "no_anggota": "A004", "nama": "Dewi Sartika", "email": "dewi@mail.com", "status": "Aktif" }
+  ]
+}

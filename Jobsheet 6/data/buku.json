@@ -1,0 +1,14 @@
+{
+  "buku": [
+    { "isbn": "978-602-03-8829-8", "judul": "Laskar Pelangi", "pengarang": "Andrea Hirata", "tahun": 2005,"kategori": "Fiksi", "stok": 4 },
+    { "isbn": "978-979-3062-79-2", "judul": "Bumi Manusia", "pengarang": "Pramoedya Ananta Toer", "tahun": 1980, "kategori": "Fiksi", "stok": 2 },
+    { "isbn": "978-602-06-3317-6", "judul": "Laut Bercerita", "pengarang": "Leila S. Chudori", "tahun": 2017, "kategori": "Fiksi", "stok": 5 },
+    { "isbn": "978-979-22-6180-6", "judul": "Negeri 5 Menara", "pengarang": "Ahmad Fuadi", "tahun": 2009, "kategori": "Fiksi", "stok": 3 },
+    { "isbn": "978-634-244-185-5", "judul": "Presiden Solusi", "pengarang": "Dirgayuza Setiawan", "tahun": 2026, "kategori": "Non-Fiksi", "stok": 6 },
+    { "isbn": "978-979-1227-78-0", "judul": "Perahu Kertas", "pengarang": "Dee Lestari", "tahun": 2009, "kategori": "Fiksi", "stok": 3 },
+    { "isbn": "978-192-1685-00-2", "judul": "Time Raiders", "pengarang": "Xu Lei", "tahun": 2016, "kategori": "Fiksi", "stok": 1 },
+    { "isbn": "978-623-89676-5-0", "judul": "Islam ala Prabowo", "pengarang": "Abdur Rahim Hasan", "tahun": 2025, "kategori": "Non-Fiksi", "stok": 8 },
+    { "isbn": "978-979-22-3867-9", "judul": "5 cm", "pengarang": "Donny Dhirgantoro", "tahun": 2005, "kategori": "Fiksi", "stok": 7 },
+    { "isbn": "978-623-160-213-8", "judul": "Lucunya Prabowo", "pengarang": "Sunano", "tahun": 2024, "kategori": "Fiksi", "stok": 2 }
+  ]
+}

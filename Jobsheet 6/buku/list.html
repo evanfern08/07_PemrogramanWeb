@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIMPUS-Mini | Daftar Buku</title>
+    <link rel="stylesheet" href="../assets/css/style.css ">
+</head>
+
+<body>
+    <header>
+        <h1>SIMPUS-Mini</h1>
+        <button type="button" id="nav-toggle-btn" class="nav-toggle-btn" aria-label="Menu">&#9776;</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="list.html">Daftar Buku</a></li>
+                <li><a href="tambah.html">Tambah Buku</a></li>
+                <li><a href="../anggota/list.html">Daftar Anggota</a></li>
+                <li><a href="../anggota/tambah.html">Tambah Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Daftar Buku</h2>
+
+            <!-- TAMBAHKAN KODE INPUT INI -->
+            <div style="margin-bottom: 15px;">
+                <input type="text" id="search-input" placeholder="Cari judul buku..." style="padding: 8px; width: 100%; max-width: 300px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            
+            <!-- TUGAS MANDIRI NO 3: Penghitung Jumlah Buku -->
+            <p id="counter-buku" style="font-weight: bold; margin-bottom: 10px;">
+                Menampilkan 0 dari 0 buku
+            </p>
+
+            <!-- PRAKTIKUM HARI INI: Indikator Loading saat Fetch API -->
+            <div id="loading-indicator" style="display: none; font-style: italic; color: #666; margin-bottom: 10px;">
+                Memuat data buku...
+            </div>
+
+            <div class="table-responsive">
+                <!-- Kait ID 'tabel-buku' ditambahkan agar mudah diakses JavaScript -->
+                <table id="tabel-buku">
+                    <thead>
+                        <tr>
+                            <!-- TUGAS MANDIRI NO 1: Ditambahkan kolom ISBN -->
+                            <th>ISBN</th>
+                            <th>Judul</th>
+                            <th>Pengarang</th>
+                            <th>Tahun</th>
+                            <th>Kategori</th> <!-- Penambahan Kolom Baru -->
+                            <th>Stok</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <!-- Diisi otomatis via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 5</p>
+    </footer>
+    <script src="../assets/js/app.js"></script>.
+</body>
+
+</html>
