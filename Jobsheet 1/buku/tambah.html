@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SIMPUS-Mini | Tambah Buku</title>
+</head>
+
+<body>
+    <header>
+        <h1>SIMPUS-Mini</h1>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\ThinkPad T14s Gen 2\OneDrive\Dokumen\Semester 3\PemograWeb\PemogramanWebMandiri\Jobsheet 1\index.html">Beranda</a></li>
+                <li><a href="C:\Users\ThinkPad T14s Gen 2\OneDrive\Dokumen\Semester 3\PemograWeb\PemogramanWebMandiri\Jobsheet 1\buku\list.html">Daftar Buku</a></li>
+                <li><a href="C:\Users\ThinkPad T14s Gen 2\OneDrive\Dokumen\Semester 3\PemograWeb\PemogramanWebMandiri\Jobsheet 1\buku\tambah.html">Tambah Buku</a></li>
+                <li><a href="C:\Users\ThinkPad T14s Gen 2\OneDrive\Dokumen\Semester 3\PemograWeb\PemogramanWebMandiri\Jobsheet 1\anggota\list.html">Daftar Anggota</a></li>
+                <li><a href="C:\Users\ThinkPad T14s Gen 2\OneDrive\Dokumen\Semester 3\PemograWeb\PemogramanWebMandiri\Jobsheet 1\anggota\tambah.html">Tambah Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <p>
+                <label for="judul">Judul:</label><br>
+                <input type="text" id="judul" name="judul" required>
+            </p>
+            <p>
+                <label for="pengarang">Pengarang:</label><br>
+                <input type="text" id="pengarang" name="pengarang" required>
+            </p>
+            <p>
+                <label for="tahun">Tahun:</label><br>
+                <input type="number" id="tahun" name="tahun" min="1900" max="2026" required>
+            </p>
+            <p>
+                <label for="stok">Stok:</label><br>
+                <input type="number" id="stok" name="stok" min="0" required>
+            </p>
+            <p>
+                <label for="kategori">Kategori:</label><br>
+                <select id="kategori" name="kategori" required>
+                    <option value="fiksi">Fiksi</option>
+                    <option value="non-fiksi">Non-Fiksi</option>
+                    <option value="referensi">Referensi</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">Simpan</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 1</p>
+    </footer>
+</body>
